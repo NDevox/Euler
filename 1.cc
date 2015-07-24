@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "1.h"
 
-int main()
+int euler_1()
 {
 	int result = 0;
 	int i;
@@ -13,5 +13,5 @@ int main()
 		}
 	}
 
-	printf("The total is: %d", result); // returns 233168
+	return result; // returns 233168
 }
