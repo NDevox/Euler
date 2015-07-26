@@ -1,5 +1,4 @@
 #include "5.h"
-#include <stdio.h>
 
 
 int euler_5(){
@@ -16,9 +15,7 @@ int euler_5(){
 				break;
 			}
 		}
-		if(multiple){
-			return start;
-		}
 		start += 20;
 	}
+	return start;
 }

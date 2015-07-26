@@ -5,6 +5,7 @@
 #include "4.h"
 #include "5.h"
 #include "6.h"
+#include "7.h"
 
 int main(){
 	printf("The result of Euler 1 is: %i\n", euler_1());
@@ -13,4 +14,5 @@ int main(){
 	printf("The result of Euler 4 is: %i\n", euler_4());
 	printf("The result of Euler 5 is: %i\n", euler_5());
 	printf("The result of Euler 6 is: %i\n", euler_6());
+	printf("The result of Euler 7 is: %i\n", euler_7());
 }

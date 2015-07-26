@@ -16,5 +16,5 @@ int euler_2(){
 
 		before = during;
 	}
-	return total; // returns 4613732
+	return total;
 }

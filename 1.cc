@@ -10,5 +10,5 @@ int euler_1(){
 		}
 	}
 
-	return result; // returns 233168
+	return result;
 }

@@ -1,9 +1,7 @@
 #include "4.h"
-#include <stdio.h>
-#include <iostream>
-#include <algorithm>
-#include <sstream>
 #include <string>
+
+using namespace std;
 
 int euler_4(){
 	int temp, largest, i, j, x, y, is_pal;
@@ -18,7 +16,7 @@ int euler_4(){
 
 			if(temp > largest){
 
-				std::string palindrome = std::to_string(temp);
+				string palindrome = to_string(temp);
 				is_pal = 1;
 
 				for(y = 0, x = palindrome.length()-1; x > y; x--, y++){

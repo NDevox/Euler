@@ -1,16 +1,19 @@
 #include "3.h"
+#include <stdio.h>
 #include <cmath>
 #include <iostream>
 #include <vector>
+using namespace std;
+
 
 double euler_3(){
 	int i, j;
 	long total;
 	double limit;
-	std::vector<int> sieve, primes;
+	vector<int> sieve, primes;
 
 	total = 600851475143;
-	limit = std::sqrt(600851475143);
+	limit = sqrt(600851475143);
 
 	for(i=2;i<(int)limit;i++){
 		sieve.push_back(i);
@@ -27,8 +30,7 @@ double euler_3(){
 		for(j=i + sieve[i]; j < sieve.size(); j += sieve[i]){
         	if(sieve[j] == 0){
         		continue;
-        	}
-        	else if(sieve[j] % sieve[i] == 0){
+        	} else if(sieve[j] % sieve[i] == 0){
         		sieve[j] = 0;
         	}
         }
@@ -46,7 +48,6 @@ double euler_3(){
 			total = total/primes[i];
 		}
 	}
-
 	return total;
 }
 
