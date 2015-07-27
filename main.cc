@@ -6,6 +6,7 @@
 #include "5.h"
 #include "6.h"
 #include "7.h"
+#include "8.h"
 
 int main(){
 	printf("The result of Euler 1 is: %i\n", euler_1());
@@ -15,4 +16,5 @@ int main(){
 	printf("The result of Euler 5 is: %i\n", euler_5());
 	printf("The result of Euler 6 is: %i\n", euler_6());
 	printf("The result of Euler 7 is: %i\n", euler_7());
+	printf("The result of Euler 8 is: %ld\n", euler_8()); // requires to print long as number is too big for an int.
 }
