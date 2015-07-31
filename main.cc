@@ -9,6 +9,7 @@
 #include "8.h"
 #include "9.h"
 #include "10.h"
+#include "11.h"
 
 int main(){
 	printf("The result of Euler 1 is: %i\n", euler_1());
@@ -21,4 +22,5 @@ int main(){
 	printf("The result of Euler 8 is: %ld\n", euler_8()); // requires to print long as number is too big for an int.
 	printf("The result of Euler 9 is: %i\n", euler_9());
 	printf("The result of Euler 10 is: %ld\n", euler_10());
+	printf("The result of Euler 11 is: %i\n", euler_11());
 }
