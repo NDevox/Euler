@@ -11,5 +11,5 @@ Languages are split into separate feature branches. Currently there is:
 
 ##- [C++](https://github.com/NDevox/Euler/tree/C_Plus_Plus)
 
-##- [Python](https://github.com/NDevox/Euler/tree/Python)
+##- [Python](https://github.com/NDevox/Euler/tree/python)
 
