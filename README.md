@@ -13,4 +13,4 @@ Languages are split into separate feature branches. Currently there is:
 
 ##- [Python](https://github.com/NDevox/Euler/tree/python)
 
-##- [golang](https://github.com/NDevox/Euler/tree/golang)
+##- [Go](https://github.com/NDevox/Euler/tree/golang)
